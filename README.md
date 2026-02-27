@@ -1,14 +1,14 @@
 # Lecture Livecode Example
 
-`dash-project` folder’ını açarak dashboarding live lecture’ın final sonuçlarını inceleyebilirsiniz.
+You can view the final results of the dashboarding live lecture by opening the `dash-project` folder.
 
-`emissions.csv` file’ını indirmek için:
+To download the `emissions.csv` file:
 
-1. Çalıştırmak istediğiniz page’in bulunduğu folder’a gidin.
-2. Terminal’de aşağıdaki command’i çalıştırın:
+1. Go to the folder containing the page you want to run.
+2. Run the following command in the terminal:
 
-    ```bash
-    curl -s https://raw.githubusercontent.com/owid/co2-data/refs/heads/master/owid-co2-data.csv > emissions.csv
-    ```
+```bash
+curl -s https://raw.githubusercontent.com/owid/co2-data/refs/heads/master/owid-co2-data.csv > emissions.csv
+```
 
-Başka bir page’i çalıştırmak isterseniz, `emissions.csv` file’ını ilgili folder’a kopyalayın veya taşıyın.
+If you want to run a different page, copy or move the `emissions.csv` file to the relevant folder.
