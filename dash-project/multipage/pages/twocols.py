@@ -10,7 +10,7 @@ dash.register_page(__name__)
 
 
 # Load data
-emissions_df = pd.read_csv("emissions.csv")
+emissions_df = pd.read_csv("../../emissions.csv")
 emissions_df = emissions_df.query("year >= 1950")
 
 country_df = emissions_df.query("country == 'France'")
